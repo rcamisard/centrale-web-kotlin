@@ -1,5 +1,9 @@
 spring:
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      ddl-auto: create
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: password
+    url: jdbc:mysql://localhost:3306/kotlin_db
+    username: root
+    password: Aubetoile787
